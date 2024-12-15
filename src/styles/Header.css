@@ -1,0 +1,33 @@
+.header-container {
+  background-color: #1e1e30;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+}
+.covid19 {
+  font-size: 20px;
+  font-family: "Bree Serif";
+  color: #f8fafc;
+  font-weight: 400;
+  margin-left: 50px;
+}
+.span-covid {
+  color: #356ece;
+}
+.link-style {
+  text-decoration: none;
+}
+.home-heading {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  .home-heading {
+    display: none;
+  }
+}
